@@ -1,0 +1,10 @@
+.advantages {
+  color: var(--dark-grey, #383A4C);
+  padding: 71px 0;
+}
+
+@media screen and (max-width: 425px) {
+  .advantages {
+    padding: 30px 0 59px 0;
+  }
+}

@@ -1,0 +1,104 @@
+.contact-us-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.contact-us-wrap__h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--main-color, #FFFFFF);
+  margin: 0 0 17px 0;
+  padding: 0 23px 0 0;
+}
+
+.contact-us-wrap__description {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--light-grey-08, rgba(255, 255, 255, 0.8));
+  margin: 0 0 50px 0;
+}
+
+.contact-us-wrap__policy {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: var(--main-color, #FFFFFF);
+}
+
+.contact-us-wrap__link {
+  transition: color 0.4s ease, border-bottom-color 0.4s ease;
+  color: var(--dark-blue, #4A76A8);
+  border-bottom: 1px var(--dark-blue, #4A76A8) solid;
+  padding: 0 0 2px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-us-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-start;
+    padding: 0;
+  }
+
+  .contact-us-wrap__h2 {
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0;
+    padding: 71px 6px 15px 0;
+  }
+
+  .contact-us-wrap__description {
+    font-size: 20px;
+    line-height: 23px;
+    padding: 0 0 0 17px;
+  }
+
+  .contact-us-wrap__policy {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-us-wrap__h2 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .contact-us-wrap__description {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact-us-wrap__h2 {
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0 0 10px 0;
+    padding: 31px 6px 0px 0;
+  }
+
+  .contact-us-wrap__description {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 0 38px 0;
+    padding: 0;
+  }
+
+  .contact-us-wrap__policy {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}

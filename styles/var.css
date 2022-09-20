@@ -1,0 +1,18 @@
+:root {
+  --main-color: #FFFFFF;
+  --dark-grey: #383A4C;
+  --bright-blue: #23C7EC;
+  --dark-blue: #4A76A8;
+  --button-blue: #15A9CB;
+  --box-shadow: rgba(21, 169, 203, 0.3);
+  --blue-hover: #1187a3;
+  --light-grey: rgba(255, 255, 255, 0.5);
+  --light-grey-h1: rgba(255, 255, 255, 0.86);
+  --light-grey-075: rgba(255, 255, 255, 0.75);
+  --light-grey-08: rgba(255, 255, 255, 0.8);
+  --background-dark-blue: rgba(47, 50, 75, 0.85);
+  --footer-dark-blue: #2F324B;
+  --scroll-background: rgb(47 50 75 / 42%);
+  --footer-mobile-grey: #2A2C3F;
+  --footer-grey: rgb(255 255 255 / 37%);
+}

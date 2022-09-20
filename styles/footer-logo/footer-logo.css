@@ -1,0 +1,35 @@
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-logo__copyright {
+  white-space: pre-line;
+}
+
+.footer-logo__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-logo__logo {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer-logo__logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .footer-logo__copyright {
+    font-size: 8px;
+    line-height: 11px;
+  }
+}

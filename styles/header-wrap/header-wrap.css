@@ -1,0 +1,20 @@
+.header-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-wrap__logo {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header-wrap__logo {
+    height: 30px;
+    width: 30px;
+  }
+}

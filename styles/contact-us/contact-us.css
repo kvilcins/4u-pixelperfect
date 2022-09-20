@@ -1,0 +1,38 @@
+.contact-us {
+  background-image: url("img/form-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  min-height: 398px;
+  height: 621px;
+}
+
+.contact-us:before {
+  content: '';
+  background: var(--background-dark-blue, rgba(47, 50, 75, 0.85));
+  width: 100%;
+  min-height: 398px;
+  height: 621px;
+  position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-us {
+    height: 558px;
+  }
+
+  .contact-us:before {
+    height: 558px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact-us {
+    height: 398px;
+  }
+
+  .contact-us:before {
+    height: 398px;
+  }
+}
